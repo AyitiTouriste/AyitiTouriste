@@ -6,15 +6,12 @@
 ## User Stories
 
 
-Main functionality is completed:
+The following **required** functionality is completed:
 
 - [ ] User is able to find the place by searching information in a search bar.
 - [ ] User is able to locate the place by clicking on the service corresponding to his need in a list of services.
 - [ ] User is able to use his position on a google map to locate places next to him or near by.
 - [ ] User is able to book for hotel, rent a car, buy services.
-
-The following **required** functionality is completed:
-
 - [ ] User can create account. 
 - [ ] User is able to find information without having created an account before 
 
