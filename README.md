@@ -1,6 +1,6 @@
-# Project - *AyitiTouris*
+# Project - *AyitiTouriste*
 
-**AyitiTouris** is a Tourist search app providing informations about Hotels, Restaurant, museum and other interesting places in Haïti.
+**AyitiTouriste** is a Tourist search app providing informations about Hotels, Restaurant, museum and other interesting places in Haïti.
 
 
 ## User Stories
