@@ -20,8 +20,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="splashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="qzL-eH-5ej">
-                                <rect key="frame" x="0.0" y="-16" width="375" height="701"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="splashScreen-1" translatesAutoresizingMaskIntoConstraints="NO" id="s5k-uA-VMX">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="665"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="splashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="S56-Uh-bTQ">
+                                <rect key="frame" x="0.0" y="-20" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="splashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="txa-vS-eRW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="splashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="gSC-AG-V1Y">
+                                <rect key="frame" x="-7" y="-20" width="384" height="686"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -35,5 +47,6 @@
     </scenes>
     <resources>
         <image name="splashScreen" width="375" height="667"/>
+        <image name="splashScreen-1" width="375" height="667"/>
     </resources>
 </document>

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0482A542218950C500124A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2DAE881F37C09800D0182A /* AppDelegate.swift */; };
 		2BFE5E6924FCE2AE3D7206BB /* Pods_AyitiTourisme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6B95ED4008B2A0F8EF5AFA /* Pods_AyitiTourisme.framework */; };
-		5A2DAE891F37C09800D0182A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2DAE881F37C09800D0182A /* AppDelegate.swift */; };
 		5A2DAE8B1F37C09800D0182A /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2DAE8A1F37C09800D0182A /* ContainerVC.swift */; };
 		5A2DAE8E1F37C09800D0182A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2DAE8C1F37C09800D0182A /* Main.storyboard */; };
 		5A2DAE901F37C09800D0182A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2DAE8F1F37C09800D0182A /* Assets.xcassets */; };
@@ -52,6 +52,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0482A545218974CC00124A9F /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				5A2DAE9C1F37C59100D0182A /* MainVC.swift */,
+				5A2DAE8A1F37C09800D0182A /* ContainerVC.swift */,
+				5A2DAE9A1F37C2FC00D0182A /* SideMenuVC.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		04F1444C218A407D006B3F6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F1444D218A4085006B3F6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04F1444E218A4090006B3F6D /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		04F1444F218A40C0006B3F6D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		448A476C7E358D64346CF3C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +120,12 @@
 		5A2DAE871F37C09800D0182A /* AyitiTourisme */ = {
 			isa = PBXGroup;
 			children = (
+				04F1444F218A40C0006B3F6D /* View Controller */,
+				04F1444E218A4090006B3F6D /* API */,
+				04F1444D218A4085006B3F6D /* Models */,
+				04F1444C218A407D006B3F6D /* Views */,
+				0482A545218974CC00124A9F /* Container */,
 				5A2DAE881F37C09800D0182A /* AppDelegate.swift */,
-				5A2DAE8A1F37C09800D0182A /* ContainerVC.swift */,
-				5A2DAE9A1F37C2FC00D0182A /* SideMenuVC.swift */,
-				5A2DAE9C1F37C59100D0182A /* MainVC.swift */,
 				5A2DAE8C1F37C09800D0182A /* Main.storyboard */,
 				5A2DAE8F1F37C09800D0182A /* Assets.xcassets */,
 				5A2DAE911F37C09800D0182A /* LaunchScreen.storyboard */,
@@ -123,7 +163,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Kyle Lee";
+				ORGANIZATIONNAME = Codepath;
 				TargetAttributes = {
 					5A2DAE841F37C09800D0182A = {
 						CreatedOnToolsVersion = 9.0;
@@ -167,15 +207,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AyitiTourisme-checkManifestLockResult.txt",
 			);
@@ -191,9 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0482A542218950C500124A9F /* AppDelegate.swift in Sources */,
 				5A2DAE8B1F37C09800D0182A /* ContainerVC.swift in Sources */,
 				5A2DAE9D1F37C59100D0182A /* MainVC.swift in Sources */,
-				5A2DAE891F37C09800D0182A /* AppDelegate.swift in Sources */,
 				5A2DAE9B1F37C2FC00D0182A /* SideMenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
